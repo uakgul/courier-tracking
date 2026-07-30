@@ -23,7 +23,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	implementation("org.springframework.boot:spring-boot-starter-data-redis")
 	runtimeOnly("com.h2database:h2")
-	runtimeOnly("org.postgresql:postgresql")
+	runtimeOnly("org.springframework.boot:spring-boot-h2console")
 	implementation("org.slf4j:slf4j-api")
 	compileOnly("org.projectlombok:lombok")
 	implementation("org.mapstruct:mapstruct:1.6.3")
